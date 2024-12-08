@@ -1,0 +1,302 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:
+    url(cer.jpg);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 70px;
+    padding-right: 20px;
+    padding-top: 0;
+}
+
+.container {
+    gap: 60px;
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    margin-right: 170px;
+}
+
+.section1 , .section2 {
+    gap: 40px;
+    flex: 1;
+    border-radius: 8px;
+    padding: 0;
+    color: #fff;
+    width: 120px;
+}
+
+.section1 {
+    
+    margin-top: 320px;
+}
+.div1 {
+    width: 250px;
+    background-color: #25253b;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(90, 90, 90, 0.3);
+    margin-top: 120px;
+}
+
+.section2 {
+    width: 1500px;
+    margin: 60px;
+    margin-top: 290px;}
+
+.sun, .mercury2, .mercury {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.accordion {
+    display: block;
+    width: 100%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin-top: 40px;
+    border-radius: 12px;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.accordion-item:last-child {
+    border-bottom: none;
+}
+
+.accordion-header {
+    height: 60px;
+    width: 100%;
+    background-color: #25253b;
+    color: #fff;
+    padding: 15px;
+    font-size: 16px;
+    text-align: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion-header:hover {
+    background-color: #2d2d2d;
+}
+
+.accordion-content {
+    max-height: 0;
+    transition: max-height 0.3s ease;
+    background-color: #f9f9f9;
+    padding: 0 15px;
+    color: black;/* Inițial ascuns */
+    overflow-y: auto; /* Permite derularea verticală */
+    transition: max-height 0.3s ease; /* Tranziție pentru max-height */
+    padding: 0 15px; /* Padding pentru estetică */
+    padding-bottom: 0; /* Inițializare padding-bottom */
+}
+.accordion-header.active + .accordion-content {
+    max-height: 100px;
+}
+.accordion-content::-webkit-scrollbar {
+    width: 8px; /* Lățimea barei de derulare */
+}
+
+.accordion-content::-webkit-scrollbar-thumb {
+    background: #888; /* Culoarea barei de derulare */
+    border-radius: 4px; /* Colțuri rotunjite ale barei de derulare */
+}
+
+.accordion-content::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Culoarea barei de derulare la hover */
+}
+
+.accordion-content p {
+    margin: 15px 0;
+}
+
+.icon {
+    font-size: 18px;
+    width: 18px;
+    text-align: center;
+    transition: none;
+}
+
+.mercury2 {
+    display: block;
+    height: 33px;
+    width: auto;
+    align-items: center;
+    padding-left: 200px;
+    padding-bottom: 40px;
+}
+
+.sun {
+    height: 160px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.sun:hover {
+    transform: scale(2.9);
+}
+
+.p {
+    display: block;
+    width: 300px;
+}
+
+.mercury {
+    flex: 1;
+    border-radius: 50%;
+    width: 400px;
+}
+
+.mercury:hover {
+    box-shadow: 0 0 30px 15px rgba(255, 251, 168, 0.872);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.card {
+    padding: 30px;
+    display: flex;
+    background: linear-gradient(135deg, #00000b, #686a7d);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 600px;
+    text-align: center;
+}
+
+.content {
+    flex: 2;
+    padding: 20px;
+        position: relative;
+        z-index: 2;}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li strong {
+    color: #212121;
+}
+
+.type {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #c98232;
+    text-align: center;
+    padding: 10px;
+}
+
+.p.type {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+}
+
+.p.type p {
+    margin: 0;
+}
+/* Header Styles */
+.header {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffdd57;
+    padding: 15px 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.header p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.nav {
+    margin-top: 10px;
+}
+
+.nav-button {
+    background-color: #B87333;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 35px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #a0601f;
+    transform: scale(1.05);
+}
+
+/* Container and Content Adjustment */
+.container {
+    padding-top: 80px; /* Adjust according to header height */
+    /* other styles... */
+}
+
+/* Footer Styles */
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffdd57;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 1rem;
+}

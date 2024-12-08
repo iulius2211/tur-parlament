@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acordeon cu Imagine</title>
+    <link rel="stylesheet" href="venus.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Sistemul solar</h1>
+        <p>Discută despre stele, planete și ce este după ele</p>
+        <nav class="nav">
+            <button onclick="window.location.href='index_romana.html'" class="nav-button">Pagina Principală</button>
+            <button onclick="window.location.href='mercury.html'" class="nav-button">Mercur</button>
+            <button onclick="window.location.href='venus.html'" class="nav-button">Venus</button>
+            <button onclick="window.location.href='earth.html'" class="nav-button">Pământ</button>
+            <button onclick="window.location.href='mars.html'" class="nav-button">Marte</button>
+            <button onclick="window.location.href='jupitre.html'" class="nav-button">Jupiter</button>
+            <button onclick="window.location.href='saturn.html'" class="nav-button">Saturn</button>
+            <button onclick="window.location.href='uranus.html'" class="nav-button">Uranus</button>
+            <button onclick="window.location.href='neptun.html'" class="nav-button">Neptun</button>
+            <button onclick="window.location.href='forum.html'" class="nav-button">Forum</button>
+            <button onclick="window.location.href='smartlab.html'" class="nav-button">SmartLab</button>
+        </nav>
+        <button class="nav-tr">
+            <div id="google_translate_element"></div>
+            <script type="text/javascript">
+              function googleTranslateElementInit() {
+                new google.translate.TranslateElement({
+                  pageLanguage: 'ro',
+                  includedLanguages: 'en,ru,ro',
+                  layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+                }, 'google_translate_element');
+              }
+            </script>
+            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        </button>
+    </header>
+
+    <div class="container">
+        <div class="section1">
+            <div class="div1">
+                <img src="sun.png" class="sun">
+                <img src="venus.png" class="mercury2">
+                <p>Pentru a vedea diferenta de dimensiuni dintre soare si planeta misca cursorul pe soare.</p>
+            </div>
+        </div>
+        <div class="section2">
+            <div class="card">
+                <div class="image">
+                    <img src="venus.png" class="mercury">
+                </div>
+                <div class="content">
+                    <h1>Venus</h1>
+                    <ul>
+                        <li><strong>distanța de la soare:<br></strong> 108 milioane km</li>
+                        <li><strong>Lungimea zilei: <br></strong>243 zile pământești (5832 ore)</li>
+                        <li><strong>Lungimea anului: <br></strong> 225 de zile pământești (0,6 ani pământeni)</li>
+                    
+                        <li><strong>Raza: <br></strong> 6052 km  </li>
+                        <li><strong>Densitatea: <br></strong> 5200 kg/m3  </li>
+                        <li><strong>Masa: <br></strong> 0.82 Mase terestre  </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header">Prezentare<span class="icon">+</span></button>
+                    <div class="accordion-content">
+                        <p>• Compoziție chimică:
+
+                            • Atmosferă: Dioxid de carbon (96.5%), azot (3.5%), urme de acid sulfuric<br>
+                            
+                            • Suprafețele: Silicați și bazalt<br>
+                            
+                            • Temperatură: Aprox. 465°C (temperatură medie)<br>
+                            
+                            • Accelerație gravitațională: 8.87 m/s²<br>
+                            • Posibilitatea vietii: Foarte mică. Atmosfera lui Venus este extrem de densă<br>
+                            Tipul de planeta: planeta telurica</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">Curiozitati<span class="icon">+</span></button>
+                    <div class="accordion-content">
+                        <p> •Venus se roteste retrograd (sens invers acelor de ceasornic) in jurul axei sale. Acest lucru se datorează probabil unei coliziuni care a avut loc cu un număr necunoscut de milenii în urmă, care, în esență, a răsturnat planeta cu susul în jos.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">Astrologie & Mitologie<span class="icon">+</span></button>
+                    <div class="accordion-content">
+                        <p>Venus este zeița romană a iubirii și frumuseții. Planeta a fost numită Venus deoarece face o priveliște frumoasă pe cer simbolizând frumusețea zeiței însăși, doar Soarele și Luna fiind mai strălucitoare.
+                            .</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer style="background-color: rgba(0, 0, 0, 0.7); 
+    color: #ffdd57; 
+    padding: 10px 15px; 
+    text-align: left; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    width: auto; 
+    z-index: 1000;">
+<p>Proiect realizat de I.P.L.T 
+<a href="http://ip-lthyperion.md/" target="_blank" style="color: #ffdd57; text-decoration: underline; font-weight: bold;">Hyperion</a> 
+<br> Elevi: Bîzgu Iulius, Cotorobai Nina.
+<br> Coordonatori: Babalici Ala, Ana Luchian, Tihii Svetlana.
+</p>
+</footer>
+
+    <script src="js/mercury.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acordeon cu Imagine</title>
+    <link rel="stylesheet" href="mercurt.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Sistemul solar</h1>
+        <p>Discută despre stele, planete și ce este după ele</p>
+        <nav class="nav">
+            <button onclick="window.location.href='index_romana.html'" class="nav-button">Pagina Principală</button>
+            <button onclick="window.location.href='mercury.html'" class="nav-button">Mercur</button>
+            <button onclick="window.location.href='venus.html'" class="nav-button">Venus</button>
+            <button onclick="window.location.href='earth.html'" class="nav-button">Pământ</button>
+            <button onclick="window.location.href='mars.html'" class="nav-button">Marte</button>
+            <button onclick="window.location.href='jupitre.html'" class="nav-button">Jupiter</button>
+            <button onclick="window.location.href='saturn.html'" class="nav-button">Saturn</button>
+            <button onclick="window.location.href='uranus.html'" class="nav-button">Uranus</button>
+            <button onclick="window.location.href='neptun.html'" class="nav-button">Neptun</button>
+            <button onclick="window.location.href='forum.html'" class="nav-button">Forum</button>
+            <button onclick="window.location.href='smartlab.html'" class="nav-button">SmartLab</button>
+        </nav>
+        <button class="nav-tr">
+            <div id="google_translate_element"></div>
+            <script type="text/javascript">
+              function googleTranslateElementInit() {
+                new google.translate.TranslateElement({
+                  pageLanguage: 'ro',
+                  includedLanguages: 'en,ru,ro',
+                  layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+                }, 'google_translate_element');
+              }
+            </script>
+            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        </button>
+    </header>
+
+    <div class="container">
+        <div class="section1">
+            <div class="div1">
+                <img src="sun.png" class="sun">
+                <img src="mercury2.png" class="mercury2">
+                <p>Pentru a vedea diferenta de dimensiuni dintre soare si planeta misca cursorul pe soare.</p>
+            </div>
+        </div>
+        <div class="section2">
+            <div class="card">
+                <div class="image">
+                    <img src="mercury.jpg" class="mercury">
+                </div>
+                <div class="content">
+                    <h1>Mercur</h1>
+                    <ul>
+                        <li><strong>distanța de la soare:<br></strong>  58 de milioane km</li>
+                        <li><strong>Lungimea zilei: <br></strong>58,67 zile pământești (1408 ore)</li>
+                        <li><strong>Lungimea anului: <br></strong> 88 de zile pământești (0,2 ani pământeni)</li>
+                        <li><strong>Tipul de planeta: <br></strong> planeta telurica  </li>
+                        <li><strong>Raza: <br></strong> 2.437 km  </li>
+                        <li><strong>Masa: <br></strong> 0.387 Mase terestre  </li>
+                        <li><strong>Densitatea: <br></strong> 5500 kg/m3  </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header">Prezentare<span class="icon">+</span></button>
+                    <div class="accordion-content">
+                        <p>• Compoziție chimică:
+
+                            <br>• Nucleu: Fier și nichel <br>
+                            
+                            • Mantaua și crusta: Silicați<br>
+                            
+                            • Temperatură: Zi: aprox. 430°C, noapte: aprox. -180°C <br>
+                            
+                            • Accelerație gravitațională: 3.7 m/s²</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">Curiozitati<span class="icon">+</span></button>
+                    <div class="accordion-content">
+                        <p> • Posibilitatea vietii: improbabilă, din cauza temperaturilor extreme și a atmosferei toxice. <br>
+
+
+                            •Mercurul se micșorează treptat cu o rată aproape imperceptibilă de 9 mile la 4 miliarde de ani.<br>
+                            •Planeta nu are o atmosferă puternică și este susceptibil la impacturi violente de la trecerea meteorilor, ceea ce face ca suprafața sa să fie plină de cratere.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">Astrologie & Mitologie<span class="icon">+</span></button>
+                    <div class="accordion-content">
+                        <p>Mercur este zeul comerțului, al călătoriilor și al hoției în mitologia romană. Planeta a primit probabil acest nume deoarece se mișcă atât de repede în jurul Soarelui și relativ pe cer.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer style="background-color: rgba(0, 0, 0, 0.7); 
+    color: #ffdd57; 
+    padding: 10px 15px; 
+    text-align: left; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    width: auto; 
+    z-index: 1000;">
+<p>Proiect realizat de I.P.L.T 
+<a href="http://ip-lthyperion.md/" target="_blank" style="color: #ffdd57; text-decoration: underline; font-weight: bold;">Hyperion</a> 
+<br> Elevi: Bîzgu Iulius, Cotorobai Nina.
+<br> Coordonatori: Babalici Ala, Ana Luchian, Tihii Svetlana.
+</p>
+</footer>
+
+    <script src="js/mercury.js"></script>
+</body>
+</html>

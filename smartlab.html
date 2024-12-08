@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Grid with Gallery</title>
+    <link rel="stylesheet" href="smartlab.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Sistemul solar</h1>
+        <p>Discută despre stele, planete și ce este după ele</p>
+        <nav class="nav">
+            <button onclick="window.location.href='index_romana.html'" class="nav-button">Pagina Principală</button>
+            <button onclick="window.location.href='mercury.html'" class="nav-button">Mercur</button>
+            <button onclick="window.location.href='venus.html'" class="nav-button">Venus</button>
+            <button onclick="window.location.href='earth.html'" class="nav-button">Pământ</button>
+            <button onclick="window.location.href='mars.html'" class="nav-button">Marte</button>
+            <button onclick="window.location.href='jupitre.html'" class="nav-button">Jupiter</button>
+            <button onclick="window.location.href='saturn.html'" class="nav-button">Saturn</button>
+            <button onclick="window.location.href='uranus.html'" class="nav-button">Uranus</button>
+            <button onclick="window.location.href='neptun.html'" class="nav-button">Neptun</button>
+            <button onclick="window.location.href='forum.html'" class="nav-button">Forum</button>
+            <button onclick="window.location.href='smartlab.html'" class="nav-button">SmartLab</button>
+        </nav>
+        <button class="nav-tr">
+            <div id="google_translate_element"></div>
+            <script type="text/javascript">
+              function googleTranslateElementInit() {
+                new google.translate.TranslateElement({
+                  pageLanguage: 'ro',
+                  includedLanguages: 'en,ru,ro',
+                  layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+                }, 'google_translate_element');
+              }
+            </script>
+            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        </button>
+    </header>
+    <div class="container">
+        <div class="card">
+            <div class="image" style="background-image: url('mercury.jpg');"></div>
+            <div class="text1">
+                <h2>Clasa Viitorului</h2>
+                <p>SmartLab este cabinetul in care studiul stiintei devine o aventura exceptionala pentru elevi. Acestia pot exploata posibilitatile tehonologice la maxim in scopul studierii celor mai diverse domenii: astronomie, informatica, biologie, etc.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image" style="background-image: url('IMG_0011.JPG');"></div>
+        </div>
+        <div class="card">
+            <div class="image" style="background-image: url('IMG_0012.JPG');"></div>
+        </div>
+        <div class="card">
+            <div class="image" style="background-image: url('IMG_0013.JPG');"></div>
+        </div>
+        <div class="card">
+            <div class="image" style="background-image: url('IMG_0014.jpg');"></div>
+        </div>
+        <div class="card">
+            <div class="image" style="background-image: url('IMG_0015.jpg');"></div>
+            <div class="text2">
+                <h2>Diversitatea tehnologica</h2>
+                <p>Utilizand asemenea instrumente precum imprimanta 3d, ochelari vr, calculatoare, tabla interactiva elevii devin adevarati modelatori, vizioneaza filmulete educative si creaza coduri de programare. Elevii pot explora concepte complexe într-un mod interactiv și captivant intr-un mod ce le stimulează creativitatea și gândirea critică. În plus, aceste instrumente îi pregătesc pentru viitorul digital, oferindu-le competențe esențiale într-o lume în continuă schimbare.</p>
+                <button class="gallery" data-gallery="gallery2">GALERIE</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <div class="lightbox-content">
+            <img id="lightbox-image" src="" alt="">
+        </div>
+        <div class="lightbox-thumbnails">
+            <img src="IMG_0014.jpg" alt="" data-src="IMG_0014.jpg">
+            <img src="IMG_0015.JPG" alt="" data-src="IMG_0015.jpg">
+            <img src="IMG_0016.JPG" alt="" data-src="IMG_0016.jpg">
+            <img src="IMG_0017.JPG" alt="" data-src="IMG_0017.jpg">
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Image from <a href="#">Freepik</a></p>
+    </div>
+    <footer style="background-color: rgba(0, 0, 0, 0.7); 
+    color: #ffdd57; 
+    padding: 10px 15px; 
+    text-align: left; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    width: auto; 
+    z-index: 1000;">
+<p>Proiect realizat de I.P.L.T 
+<a href="http://ip-lthyperion.md/" target="_blank" style="color: #ffdd57; text-decoration: underline; font-weight: bold;">Hyperion</a> 
+<br> Elevi: Bîzgu Iulius, Cotorobai Nina.
+<br> Coordonatori: Babalici Ala, Ana Luchian, Tihii Svetlana.
+</p>
+</footer>
+
+    <script src="smartlab.js"></script>
+
+</body>
+</html>
